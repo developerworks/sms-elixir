@@ -28,3 +28,6 @@ use Mix.Config
 # here (which is why it is important to import them last).
 #
 #     import_config "#{Mix.env}.exs"
+config :sms, apikey: "eaed1d0bf22e943b8e9c46e90f8aa3f5"
+config :sms, provider: "Sms.Yunpian"
+config :sms, timeout: 20000
